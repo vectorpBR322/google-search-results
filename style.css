@@ -157,4 +157,202 @@ main .search-result a:visited {
     width:625px;
 }
 
-.page
+.page-results-container img {
+    display: inline-block;
+    float: right;
+}
+/*FOCUSED RESULT*/
+section {
+    border: 1px solild #dddddd;
+    border-radius: 10px;
+    width: 665px;
+    margin-left: 150px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: 425px 0; 
+}
+
+section .text-container {
+    width: 400px
+}
+section b {
+    display: inline-block;
+    font-size: 17px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+section ol {
+    margin-bottom: 10px;
+}
+
+section li {
+    font-size: 16px;
+    line-height: 1.375;
+    margin-left: 35px;
+    margin-bottom: 3px;
+}
+
+section li {
+    font-size: 16px;
+    line-height: 1.375;
+    margin-left: 35px;
+    margin-bottom: 3px;
+}
+
+section .more-items a {
+    display: inline-block;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    text-decoration: 3px;
+}
+
+section .more-items a:hover {
+    text-decoration: underline;
+}
+
+section .focused-result {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+section .focused-result a {
+    text-decoration: none;
+}
+
+section .focused-result a:hover {
+    text-decoration: underline;
+}
+
+section .focused result h3 {
+    color: #1a0dab;
+    font-size: 18px !important;
+    font-weight: normal;
+}
+
+section .focused-result cite {
+    display:inline-block;
+    font-size: 14px;
+    font-style: normal;
+    color: #006621;
+    padding: 5px 0;
+}
+
+/*FOOTER*/
+footer {
+    display: inline-block;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4:
+    margin-top: 20px;
+}
+
+.footer-container {
+    width: 600px;
+    margin-left: 160px;
+}
+
+.footer-top p{
+    display: inline-block;
+    color: #5f6368;
+}
+
+.footer-top ul {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.footer-top li,
+.footer-bottom li {
+    list-style-type: none;
+}
+
+.footer-top li a,
+.footer-bottom li a {
+    color: #5f6368;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    margin: 20px 0 10px;
+}
+
+.footer-bottom a {
+    padding-right: 20px;
+}
+
+/*ICONS*/
+.google-logo {
+    width: 91px;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+.google-apps {
+    width: 24px;
+    vertical-align:middle;
+    opacity: .65;
+    margin-right: 20px;
+}
+
+.google-apps:hover {
+    opacity: 1;
+}
+
+.google-apps:hover {
+    opacity: 1;
+}
+
+.google-mic, .google-magnify {
+    position: relative;
+    right: 80px;
+    margin-bottom: 5px;
+}
+
+.google-mic {
+    width: 14px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.google-mic:hover {
+    cursor: pointer;
+}
+
+.google-magnify:hover {
+    cursor: pointer;
+}
+
+.sign-in {
+    color: white;
+    background-color: #4285f4;
+    border: 1px solid #4387fd;
+    border-radius: 2px;
+    padding: 7px 11px;
+    font-weight: bold;
+}
+
+.sign-in:hover {
+    box-shadow: 0px 1px 1px lightgray;
+}
+
+.search {
+    height: 45px;
+    width: 630px;
+    min-width: 450px;
+    border: 1px solid lightgray;
+    border-radius: 21px;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.search:hover {
+    box-shadow: 0px 1px 5px lightgray;
+}
+
+.search:focus {
+    outline: none;
+}
